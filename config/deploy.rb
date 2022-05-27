@@ -6,7 +6,7 @@ set :application, 'achieve'
 
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/somasss/AWS'
+set :repo_url, 'https://github.com/somasss/AWS_app'
 
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
